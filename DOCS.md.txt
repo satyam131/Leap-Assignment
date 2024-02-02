@@ -1,0 +1,49 @@
+
+Chat Application Documentation
+
+Overview
+This project is a real-time chatting application developed using React.js for the frontend, HTML, and CSS. The backend is powered by Java Spring Boot, utilizing technologies such as Stomp.js and SockJS for WebSocket communication. The application enables users to engage in both public and private chats, requiring user authentication through a name login. Private messages are stored in individual user inboxes, while public messages are visible to all users. Although database integration was planned, it was not implemented due to time constraints.
+
+
+
+Technologies Used
+
+Frontend
+React.js: A JavaScript library for building user interfaces.
+HTML: Standard markup language for creating web pages.
+CSS: Style sheet language for describing the look and formatting of a document.
+
+Backend
+Java Spring Boot: A Java-based framework for building web and enterprise applications.
+Stomp.js: A JavaScript library providing a simple way to implement WebSocket communication.
+SockJS: A WebSocket emulation library.
+
+
+
+
+Project Setup
+
+Frontend
+Install the necessary Node modules using the following command:
+npm install
+npm start
+The application will be accessible at http://localhost:3000.
+
+Backend
+Open the backend application in your preferred IDE (e.g., Eclipse, IntelliJ).
+Run the application, and the server will start on http://localhost:8000.
+
+Usage
+User Registration : Upon accessing the application, users are prompted to enter their name for registration.
+Public Chat : Users can engage in public chat conversations visible to all connected users.
+Private Chat : Users can select a specific user from the member list to initiate private chat conversations.
+Real-Time Updates : Messages are sent and received in real-time using WebSocket communication.
+
+
+Known Issues
+Database integration was not implemented due to time constraints.
+
+
+
+Conclusion
+This project demonstrates the implementation of a real-time chat application using modern web technologies. While basic functionality is in place, further enhancements, such as database integration and additional features, can be explored in future iterations.
